@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23000012475157416}
   - component: {fileID: 2725823267425041559}
   - component: {fileID: 1634057343001010940}
+  - component: {fileID: 3557394611941123391}
   m_Layer: 0
   m_Name: Chess Rook Black
   m_TagString: Untagged
@@ -140,3 +141,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3557394611941123391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013351177638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222065d60df0b594aa323deb03222ea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pieces.Piece
+  colour: 1
+  type: 1
+  price: 5

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23000012148006776}
   - component: {fileID: 8696116519242924904}
   - component: {fileID: 9202307949726492004}
+  - component: {fileID: 688332903256344264}
   m_Layer: 0
   m_Name: Chess Pawn White
   m_TagString: Untagged
@@ -140,3 +141,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &688332903256344264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013277376148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222065d60df0b594aa323deb03222ea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pieces.Piece
+  colour: 0
+  type: 0
+  price: 1
